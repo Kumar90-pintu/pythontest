@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python
 RUN pip install flask
 copy . /opt/
 EXPOSE 10093
